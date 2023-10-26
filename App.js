@@ -11,7 +11,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="StartScreen" component={StartScreen} />
+        {/* <Stack.Screen name="StartScreen" component={StartScreen} /> */}
         <Stack.Screen name="ListScreen" component={ListScreen} />
         <Stack.Screen name="DetailScreen" component={DetailScreen} />
       </Stack.Navigator>
